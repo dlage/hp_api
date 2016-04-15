@@ -1,4 +1,5 @@
 ActiveAdmin.register Club do
+  permit_params :name, :summary, :summary_html, :contact, :description, :description_html, :gps, :external_id, :external_city_id, :external_zone_id, :image, :banner, :business_hours
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
